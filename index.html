@@ -1,28 +1,55 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>曾泽宏的javascript作业</title>
-    </head>
-    <body>
-    <p>曾泽宏的javascript作业</p>
-    <a href='work1/index.html'>work1 开发环境安装</a><br>
-    <a href='work2/index.html'>work2 简单网页</a><br>
-    <a href='work3/index.html'>work3 计算圆的周长和面积</a><br>
-    <a href='work4/index.html'>work4 流程控制程序</a><br>
-    <a href='work5/index.html'>work5 循环语句程序</a><br>
-    <a href='work6/index.html'>work6 圆周率计算</a><br>
-    <a href='work7/index.html'>work7 冒泡排序和插入排序</a><br>
-    <a href='work8/index.html'>work8 网页计算器</a><br>
-    <a href='work9/index.html'>work9 三级联动</a><br>
-    <a href='work10/index.html'>work10 猴子选大王</a><br>
-    <a href='work12/index.html'>work12 万年历</a><br>
-    <a href='work13/index.html'>work13 表单生成器</a><br>
-    <a href='work14/index.html'>work14 限时秒杀</a><br>
-    <a href='work15/index.html'>work15 购物车</a><br>
-    <a href='work16/index.html'>work16 放大镜</a><br>
-    <a href='work17/index.html'>work17 表单验证</a><br>
-    
+<head>
+    <meta charset="UTF-8">
+    <title>曾泽宏的表单验证</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="box-body">
+        <form>
+            <table>
+                <tr>
+                    <th>用户名称：</th>
+                    <td><input type="text" name="username" autocomplete="new-password" placeholder="长度4~12，英文大小写字母"></td>
+                    <td>
+                        <div></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>密 码：</th>
+                    <td><input type="password" name="pwd" autocomplete="new-password" placeholder="长度6~20，大小写字母、数字或下划线"></td>
+                    <td>
+                        <div></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>确认密码：</th>
+                    <td><input type="password" name="repwd" autocomplete="new-password" placeholder="请再次输入密码进行确认"></td>
+                    <td>
+                        <div></div>
+                    </td>
+                </tr>
+                <tr>
+                <th>手机号码：</th>
+                <td><input type="text" name="tel" placeholder="13、14、15、17、18开头的11位手机号"></td>
+                <td>
+                    <div></div>
+                </td>
+            </tr>
+            <tr>
+                <th>电子邮箱：</th>
+                <td><input type="text" name="email" placeholder="用户名@域名（域名后缀至少2个字符）"></td>
+                <td>
+                    <div></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="submit" value="注册"></td>
+            </tr>
+            </table>
+        </form>
 
-    </body>
+    </div>    
+</body>
+<script src="index.js"></script>
 </html>
