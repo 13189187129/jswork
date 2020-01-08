@@ -1,8 +1,8 @@
-.title{
+.title {
     text-align: center;
 }
 
-.banner{
+.banner {
     position: relative;
     overflow: hidden;
     margin: 10px auto;
@@ -10,24 +10,23 @@
     height: 400px;
 }
 
-.banner ul{
+.banner ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.hot{
+.hot {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.hot li{
-    float: left;
+.hot li {
+     float: left;
 }
 
-
-.dot{
+.dot {
     position: absolute;
     bottom: 10px;
     width: 100%;
@@ -35,31 +34,30 @@
     font-size: 0;
 }
 
-.dot li{
+.dot li {
     display: block;
     display: inline-block;
     margin: 0 5px;
     width: 15px;
     height: 15px;
     border-radius: 100%;
-    background: rgba(145,144,144.5);
+    background: rgba(145, 144, 144, .5);
     cursor: pointer;
 }
 
-.dot .on{
+.dot .on {
     background-color: #fff;
 }
 
-
-.arrow{
+.arrow {
     display: none;
 }
 
-.arrow span{
+.arrow span {
     display: block;
     width: 50px;
-    height:100px;
-    background: rgba(0,0,0,.6);
+    height: 100px;
+    background: rgba(0, 0, 0, .6);
     color: #fff;
     text-align: center;
     font-size: 40px;
@@ -67,16 +65,16 @@
     cursor: pointer;
 }
 
-.arrow .prev{
+.arrow .prev {
     position: absolute;
-    top:50%;
-    left:0;
+    top: 50%;
+    left: 0;
     margin-top: -50px;
 }
 
-.arrow .next{
+.arrow .next {
     position: absolute;
-    top:50%;
+    top: 50%;
     right: 0;
     margin-top: -50px;
 }
